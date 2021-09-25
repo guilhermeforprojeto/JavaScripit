@@ -1,6 +1,5 @@
 
 
-
 var startPage = confirm("Iniciar cadastro?")
     if(startPage == true){
 
@@ -13,3 +12,11 @@ var startPage = confirm("Iniciar cadastro?")
     }else{
         window.location.replace("./index.html");
     }
+
+    
+function Mensagem(aniversariante){
+    alert("Parabéns "+ aniversariante)
+}
+
+//chamando a função
+Mensagem(nome)
