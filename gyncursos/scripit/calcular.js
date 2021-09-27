@@ -12,3 +12,15 @@ var retorno     =   confirm("Iniciar calculo de adição?")
         window.location.replace("./index.html");
      }
 
+alert("Vamos aqui usando function, calcular a corrente eletrica")
+
+var V = prompt("Digite o valor da tensão")
+var R = prompt("Digite o valor da resistencia")
+
+function calcula(V,R){
+    var c = V/R 
+    return c
+}
+
+var corrente = calcula(V,R)
+document.write("O valor da corrent é", corrente )
